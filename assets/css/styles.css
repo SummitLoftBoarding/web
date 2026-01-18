@@ -1,0 +1,152 @@
+    :root {
+      --primary: #0b3a66;
+      --primary-light: #1f5f99;
+      --accent: #ffffff;
+      --bg-light: #f5f7fa;
+      --text-dark: #1a1a1a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      color: var(--text-dark);
+      background: var(--bg-light);
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .trust-strip span {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    header img {
+      width: 100%;
+      display: block;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 3rem 1.25rem;
+    }
+
+    .trust-strip {
+      background: var(--primary);
+      color: var(--accent);
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+
+    .trust-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      font-weight: 600;
+    }
+
+    section h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .intro p {
+      max-width: 800px;
+      margin: 0 auto 2rem;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+      margin-top: 2.5rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--primary);
+    }
+
+    .why-us {
+      background: #fff;
+    }
+
+    .why-list {
+      max-width: 800px;
+      margin: 2rem auto 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .why-list li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, var(--primary), var(--primary-light));
+      color: var(--accent);
+      text-align: center;
+      padding: 3rem 1.25rem;
+    }
+
+    .cta h2 {
+      color: #fff;
+    }
+
+    .cta p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #fff;
+      color: var(--primary);
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      font-weight: 700;
+      margin: 0.25rem;
+    }
+
+    footer {
+      background: #0a2c4d;
+      color: #cbd6e2;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .cta a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
