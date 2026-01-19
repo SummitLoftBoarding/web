@@ -10,12 +10,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-  <!-- Header / Hero -->
-  <header>
-    <img src="assets/images/header.jpg" alt="Summit Loft Boarding - Professional Raised Loft Boarding and Storage Solutions" />
+<div id="top"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="#top" aria-label="Summit Loft Boarding Home">
+          <img src="assets/images/HeaderLogo.jpg" alt="Summit Loft Boarding Logo">
+        </a>
+      </div>
+      <nav class="main-nav">
+        <a href="#top">Home</a>
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <!-- Trust Strip -->
@@ -23,22 +33,30 @@
     <div class="trust-items">
       <span><i class="fas fa-map-marker-alt"></i> Local & Reliable</span>
       <span><i class="fas fa-broom"></i> Clean & Respectful</span>
-      <span><i class="fas fa-clipboard-check"></i> Free Survey & Quote</span>
+      <a href="#contact" class="trust-link">
+        <i class="fas fa-clipboard-check"></i> Free Survey & Quote
+      </a>
     </div>
   </div>
 
-  <!-- Intro -->
-  <section class="container intro">
-    <h2>Professional Loft Boarding & Storage Solutions</h2>
-    <p>
-      Summit Loft Boarding specialises in raised loft boarding systems designed to create safe, usable storage
-      space while protecting your insulation. Our installations help maximise space, improve access, and are
-      carried out with care and professionalism in your home.
-    </p>
-  </section>
+<!-- Intro -->
+<section class="container intro">
+  <h2>Professional Loft Boarding & Storage Solutions in Consett</h2>
+  <p>
+    <strong>Summit Loft Boarding</strong> is a local Consett-based specialist providing professional raised loft
+    boarding and loft storage solutions across Consett and the wider North East of England. We help homeowners
+    safely transform unused loft space into practical, accessible storage while protecting insulation and
+    maintaining energy efficiency.
+  </p>
+  <p>
+    All loft boarding installations are carried out with care, clear advice, and tidy workmanship. Whether you
+    need raised loft boarding, improved loft access, or secure storage solutions, Summit Loft Boarding offers a
+    free, no-obligation survey tailored to your home.
+  </p>
+</section>
 
   <!-- Services -->
-  <section class="container">
+  <section class="container" id="services">
     <h2>Our Services</h2>
     <div class="services">
       <div class="card">
@@ -72,7 +90,7 @@
   </section>
 
   <!-- Why Us -->
-  <section class="container why-us">
+  <section class="container why-us" id="why">
     <h2>Why Choose Summit Loft Boarding?</h2>
     <ul class="why-list">
       <li>Local, friendly service you can rely on</li>
@@ -82,7 +100,7 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="cta">
+  <section class="cta" id="contact">
     <h2>Free Survey & Quote</h2>
     <p>Get in touch today to discuss your loft boarding requirements and arrange a free survey.</p>
     <a href="tel:07812655053">
@@ -100,6 +118,5 @@
   <footer>
     © 2026 Summit Loft Boarding · Professional Raised Loft Boarding & Storage Solutions
   </footer>
-
 </body>
 </html>
